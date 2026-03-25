@@ -11,9 +11,9 @@ UPLOAD_FOLDER = 'temp_audio'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # ---> PASTE YOUR API KEYS HERE <---
-DEEPGRAM_API_KEY = '2ab3820756cfb4baad9f98183e89eb57c6f89367'
-SUPABASE_URL = 'https://vxkoskhrhsjfbaxkbzme.supabase.co'
-SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4a29za2hyaHNqZmJheGtiem1lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQyNjQxNTEsImV4cCI6MjA4OTg0MDE1MX0.Mnx3g9n_XS857ivBQRIkY-5FBweoU5xalMg3o1nnXpU'
+DEEPGRAM_API_KEY = '7092c4ac0b77c206f2d0296e8d4bdf528da66a61'
+SUPABASE_URL = 'https://qovvautzbdxiwojeriew.supabase.co '
+SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvdnZhdXR6YmR4aXdvamVyaWV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMyMTE4ODYsImV4cCI6MjA4ODc4Nzg4Nn0.-wUSAHVQoCW5kw-3nguM1AqlriGLMv38WRKImNkHC-0'
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
