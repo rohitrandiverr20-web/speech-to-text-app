@@ -11,7 +11,7 @@ UPLOAD_FOLDER = 'temp_audio'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # ---> PASTE YOUR API KEYS HERE <---
-DEEPGRAM_API_KEY = '7092c4ac0b77c206f2d0296e8d4bdf528da66a61'
+DEEPGRAM_API_KEY = 'd38d50c2a0d4ad4e00a84712655f70e2d7fdaeec'
 SUPABASE_URL = 'https://qovvautzbdxiwojeriew.supabase.co '
 SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvdnZhdXR6YmR4aXdvamVyaWV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMyMTE4ODYsImV4cCI6MjA4ODc4Nzg4Nn0.-wUSAHVQoCW5kw-3nguM1AqlriGLMv38WRKImNkHC-0'
 
